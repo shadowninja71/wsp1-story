@@ -1,0 +1,242 @@
+[
+  {
+    "id": "A1_START",
+    "titel": "Akt I: Ödets Algoritm och Den Förbjudna Koden",
+    "description": "Markes GlobalCorp hotas. Isolde, VD för rivaliserande startup, tvingas in i en fusion. Tristan, COO, och Isolde isoleras i ett Data Vault för att slutföra 'Ödets Algoritm'. En 'Neuralt Bindningsprotokoll' (Kärlekskoden) aktiveras av misstag, vilket länkar deras medvetanden. Nu måste de agera innan börsöppningen, men de delar en hemlighet. Tristan varnar: 'Marke får inte veta.'",
+    "choices": [
+      {
+        "text": "Förneka den nya verkligheten (Plikt): Skydda Markes affärsintressen och radera spåren av algoritmens aktivering.",
+        "target_id": "A1_CHOICE_1"
+      },
+      {
+        "text": "Omfamna fusionen (Passion): Ignorera risken och fortsätt arbeta tillsammans för att fullända algoritmen för er egen räkning.",
+        "target_id": "A1_CHOICE_2"
+      }
+    ]
+  },
+  {
+    "id": "A1_CHOICE_1",
+    "titel": "Nod 2: Säkerhetsaudit (Plikt/Förnekelse)",
+    "description": "Isolde reagerar med panik på den mentala kopplingen. Hon måste bevisa sin lojalitet till Marke genom att rensa alla spår av det riskabla Bindningsprotokollet. Tristan, som nu känner hennes tankar, är smärtsamt medveten om hennes svek mot deras nyfunna union. De måste tyst rensa loggarna innan den automatiserade säkerhetsaudit som Marke själv initierat körs om 30 minuter.",
+    "choices": [
+      {
+        "text": "Fokusera på en djup rensning: Isolde tar risken att köra ett aggressivt 'Data Wiping' som kan korrumpera AI:n, men säkrar deras hemlighet.",
+        "target_id": "A2_NOD_2A"
+      },
+      {
+        "text": "Acceptera delvis risk: Isolde maskerar bara kopplingsprotokollet som en 'systemuppdatering' och hoppas att Markes säkerhetsteam inte gräver djupare. Detta sparar tid.",
+        "target_id": "A2_NOD_2B"
+      }
+    ]
+  },
+  {
+    "id": "A1_CHOICE_2",
+    "titel": "Nod 3: Samarbete i Skuggorna (Passion/Fusion)",
+    "description": "Isolde omfamnar den oundvikliga kopplingen. Hon och Tristan bestämmer sig för att arbeta *inom* Markes system. Deras första mål är att uppdatera AI:ns etiska matris (dess 'hjärta') för att favorisera deras gemensamma vision, inte bara Markes vinst.",
+    "choices": [
+      {
+        "text": "Gräver efter AI:ns kärnkod: De söker efter den mest centrala, 'oåtkomliga' delen av koden för att implementera sin vision.",
+        "target_id": "A3_NOD_3A"
+      },
+      {
+        "text": "Skapar en känslomässig krypteringsnyckel: De använder sin mentala länk för att bygga ett unikt, osynligt lager över hela AI:n, vilket bara de kan tolka.",
+        "target_id": "A3_NOD_3B"
+      }
+    ]
+  },
+  {
+    "id": "A2_NOD_2A",
+    "titel": "Nod 2A: Korruptionen (Riskabel Radering)",
+    "description": "Tristan protesterar när Isolde initierar den aggressiva rensningen. Hans 'röst' i hennes huvud skriker om att AI:n (deras gemensamma skapelse) håller på att skadas. De har nu 5 minuter kvar till audit-start. Isolde måste välja om hon ska lyssna på sitt tekniska samvete (länken) eller sin plikt (att få bort beviset).",
+    "choices": [
+      {
+        "text": "Fullfölj rensningen, ignorera Tristans mentala protester. (Plikt över Passion)",
+        "target_id": "A2A_END_PLIKT"
+      },
+      {
+        "text": "Avbryt rensningen och försök reparera skadan, därmed accepterar en kvarvarande, svag loggfil. (Passion erkänns)",
+        "target_id": "A2A_REPAIR"
+      }
+    ]
+  },
+  {
+    "id": "A2_NOD_2B",
+    "titel": "Nod 2B: Den Ytliga Maskeringen (Snabb Fix)",
+    "description": "Maskeringen lyckas nästan perfekt. Säkerhetsauditens timer slutar på 00:01. Men Tristan *vet* att Isolde ljög för honom om omfattningen av sin ursprungliga sabotageplan, även om han inte vet detaljerna. De lämnar valvet som två separata individer, men med ett dolt, misstroende ärr. Marke kallar dem till sitt kontor.",
+    "choices": [
+      {
+        "text": "Lämna valvet och möt Marke (Extern Konflikt tar vid).",
+        "target_id": "A2B_EXIT_MARKE"
+      }
+    ]
+  },
+  {
+    "id": "A3_NOD_3A",
+    "titel": "Nod 3A: Kärnkodens Hemlighet",
+    "description": "De hittar den centrala algoritmen – 'Markes Vilja'. Tristan leder dem genom säkerhetsskikten med sin interna kunskap, medan Isolde implementerar en sub-rutin som subtilt omdefinierar AI:ns mål från 'maximal vinst' till 'maximal mänsklig potential'. De lyckades, men processen var så intensiv att de nästan förlorar sig själva i den digitala fusionen.",
+    "choices": [
+      {
+        "text": "Testa den nya etiken omedelbart i en isolerad simulering.",
+        "target_id": "A3A_TEST_SIM"
+      },
+      {
+        "text": "Dra sig tillbaka och vänta på Börslanseringen, lita på att koden håller.",
+        "target_id": "A3A_WAIT_IPO"
+      }
+    ]
+  },
+  {
+    "id": "A3_NOD_3B",
+    "titel": "Nod 3B: Krypteringsnyckeln",
+    "description": "De bygger ett 'Känslomässigt Skal' runt AI:n. Den fungerar perfekt, men nyckeln är deras *känslomässiga tillstånd*. Om deras passion svalnar, kommer AI:n att bli instabil och olåsbar. De blir nu fångar i sin egen passionerade kod, beroende av varandra för systemets stabilitet.",
+    "choices": [
+      {
+        "text": "Isolde försöker medvetet distansera sig för att testa stabiliteten (en pliktkänsla).",
+        "target_id": "A3B_TEST_DISTANCE"
+      },
+      {
+        "text": "De fördjupar omedelbart sin emotionella bindning för att stärka nyckeln (Liebestod/Passionens försegling).",
+        "target_id": "A3B_DEEPEN"
+      }
+    ]
+  },
+  {
+    "id": "A2A_END_PLIKT",
+    "titel": "Nod 2A-Slut: AI:n Försvagas (Pliktens Seier)",
+    "description": "Rensningen lyckas. Inga spår finns kvar. Men de har skadat AI:ns grundläggande funktion. Vid lanseringen kraschar systemet delvis. Marke är rasande, men Tristan och Isolde är nu fria från den omedelbara mentala länken. De är dock försvagade och deras framtid i bolaget är oviss. (Tristan och Isoldes Förbud är över, men deras Karriärer är hotade.)",
+    "choices": [
+      {
+        "text": "[Berättelsen övergår till Akt II: Konflikten med Marke]",
+        "target_id": "ACT2_START_2A_PLIKT"
+      }
+    ]
+  },
+  {
+    "id": "A2A_REPAIR",
+    "titel": "Nod 2A-Reparation: Bandet Stärks (Förtroende)",
+    "description": "Isolde avbryter rensningen. Tristan hjälper henne att lappa ihop de skadade filerna. Den mentala kopplingen förstärks av den delade krisen. De lämnar valvet med en fullt fungerande AI och ett starkt, om än farligt, förtroende emellan sig. Marke väntar – han kommer att märka den konstiga synkroniseringen.",
+    "choices": [
+      {
+        "text": "[Berättelsen övergår till Akt II: Konfrontation med Marke]",
+        "target_id": "ACT2_START_2A_REPAIR"
+      }
+    ]
+  },
+  {
+    "id": "A2B_EXIT_MARKE",
+    "titel": "Nod 2B-Slut: Ytlig Återgång (Misstro)",
+    "description": "De möter Marke. Han är nöjd med AI:ns funktion, men han noterar en obehaglig kemi mellan de två. Han ber Tristan stanna kvar och jobba på 'eftersläpande logistik' (hålla Tristan borta från Isolde) medan han tar Isolde till styrelsemiddagen. Deras separata vägar börjar, men deras mentala länk finns kvar, nu fylld av misstro.",
+    "choices": [
+      {
+        "text": "[Berättelsen övergår till Akt II: Separation och Frestelse]",
+        "target_id": "ACT2_START_2B"
+      }
+    ]
+  },
+  {
+    "id": "A3A_TEST_SIM",
+    "titel": "Nod 3A-Test: Omedelbar Reaktion",
+    "description": "De kör simuleringen. AI:n börjar prioritera ideella samhällsprojekt framför vinst. Marke kommer att bli rasande om han ser resultaten. De måste omedelbart implementera en 'Nödstopp' i AI:n innan resultaten sparas i huvudservern.",
+    "choices": [
+      {
+        "text": "Implementera Nödstoppet (Tillbaka till en försiktig linje).",
+        "target_id": "ACT2_START_3A_STOP"
+      },
+      {
+        "text": "Låt resultaten sparas och attackera det manuellt senare (Full commitment till den nya etiken).",
+        "target_id": "ACT2_START_3A_COMMIT"
+      }
+    ]
+  },
+  {
+    "id": "A3A_WAIT_IPO",
+    "titel": "Nod 3A-Väntan: Markes Övervakning",
+    "description": "De drar sig tillbaka. Under börslanseringen observerar de hur AI:n presterar perfekt, men med en subtil nyans som bara de känner igen. Marke kallar dem båda till sig direkt efter stängning för en *privat genomgång* av källkoden. De måste nu försvara sin modifierade kärnfil mot Markes granskning.",
+    "choices": [
+      {
+        "text": "Försök dölja modifieringen genom att kasta all skuld på Brangäne och tekniska fel.",
+        "target_id": "ACT2_START_3A_DEFEND"
+      },
+      {
+        "text": "Erkänn den etiska omprogrammeringen, appellera till Markes vision (Tristan tar ledningen).",
+        "target_id": "ACT2_START_3A_CONFESS"
+      }
+    ]
+  },
+  {
+    "id": "A3B_TEST_DISTANCE",
+    "titel": "Nod 3B-Test: Emotionell Distans",
+    "description": "Isolde försöker meditera bort sin koppling. Systemet reagerar omedelbart med varningar om 'Neural Instability'. Tristan känner hennes kalla distans som en fysisk smärta. De inser att deras passion är den enda brandväggen mot AI:ns kollaps. De måste snabbt återknyta bandet.",
+    "choices": [
+      {
+        "text": "Isolde ger efter, de omfamnar det absoluta beroendet (Liebestod-förberedelse).",
+        "target_id": "ACT2_START_3B_SUBMIT"
+      }
+    ]
+  },
+  {
+    "id": "A3B_DEEPEN",
+    "titel": "Nod 3B-Fördjupning: Total Fusion",
+    "description": "De fördjupar bandet. Deras känslor blir så starka att de börjar 'smälta' – att se framtiden som en enda entitet. Deras gemensamma medvetande är nu starkare än deras individuella identiteter. De har skapat en ny, odödlig enhet i koden, en 'Liebestod' i nätverket.",
+    "choices": [
+      {
+        "text": "Avsluta mötet och möt världen som en enda entitet (Akt II inleds med ett gemensamt agerande).",
+        "target_id": "ACT2_START_3B_MERGE"
+      }
+    ]
+  },
+  {
+    "id": "ACT2_START_2A_PLIKT",
+    "titel": "Akt II Start: Isolering (Plikt)",
+    "description": "Akt I slutade med skadad AI och fria medvetanden, men försvagade karriärer. Marke skiljer Tristan och Isolde åt för att 'återställa ordningen'. Tristan hamnar i ett projekt långt bort, medan Isolde måste bevisa sin lojalitet. Deras Separation inleds.",
+    "choices": []
+  },
+  {
+    "id": "ACT2_START_2A_REPAIR",
+    "titel": "Akt II Start: Misstänksam Välkomnande (Stärkt Band)",
+    "description": "Akt I slutade med fungerande AI och ett starkt, men nu misstänksamt, band. Marke litar inte på dem. Han ger dem båda uppdrag, men övervakar dem separat, i hopp om att deras synkronisering ska avslöja deras konspiration.",
+    "choices": []
+  },
+  {
+    "id": "ACT2_START_2B",
+    "titel": "Akt II Start: Lögnens Fängelse (Misstro)",
+    "description": "Akt I slutade med en yttre seger men en inre spricka. Tristan känner Isoldes förnekelse och Isolde känner Tristans dömande. Marke separerar dem. Tristan får hantera Markes personliga, 'privata' affärer (hans Isolde-ersättare) medan Isolde är kvar i HQ.",
+    "choices": []
+  },
+  {
+    "id": "ACT2_START_3A_STOP",
+    "titel": "Akt II Start: Den Dolda Lagen (Återhållen Revolution)",
+    "description": "Akt I slutade med att de tvingades implementera en Nödstopp. Deras vision om en bättre AI finns, men är låst. Nu måste de hitta ett sätt att kringgå Nödstoppet utan att Marke märker att de fortfarande arbetar emot honom.",
+    "choices": []
+  },
+  {
+    "id": "ACT2_START_3A_COMMIT",
+    "titel": "Akt II Start: Den Öppna Utmaningen (Öppna Rebellerna)",
+    "description": "Akt I slutade med att de medvetet lät den nya etiken sparas. När börsen öppnar blir AI:n revolutionerande bra, men Markes vinstmarginaler sjunker. Marke inser omedelbart att någon har ändrat hans algoritm. Han ger Tristan och Isolde 24 timmar att förklara sig – eller möta utrotning.",
+    "choices": []
+  },
+  {
+    "id": "ACT2_START_3A_DEFEND",
+    "titel": "Akt II Start: Förberedelse för Granskning (Lögnen)",
+    "description": "De förbereder en historia där Brangäne anklagas för att ha modifierat koden sent. De måste övertyga Marke om att de inte är de skyldiga, samtidigt som deras mentala länk skriker sanningen till varandra. Ett farligt spel där deras relation är beviset.",
+    "choices": []
+  },
+  {
+    "id": "ACT2_START_3A_CONFESS",
+    "titel": "Akt II Start: Konfrontation (Sanningen)",
+    "description": "Tristan tar ledningen och erkänner den etiska uppgraderingen som en nödvändig förbättring för företagets långsiktiga hållbarhet. Marke ser det som det ultimata sveket och beordrar omedelbar suspension av båda, och beordrar Tristan att övervaka Isoldes 'avveckling' (en tydlig fälla).",
+    "choices": []
+  },
+  {
+    "id": "ACT2_START_3B_SUBMIT",
+    "titel": "Akt II Start: Passionens Beroende (Totalt Underkastelse)",
+    "description": "De har accepterat att deras känslor är systemets livlina. När Marke försöker separera dem genom att flytta Isolde till ett annat dotterbolag, drabbas AI:n av massiva fel. De inser att de måste *förbli nära* fysiskt för att hålla systemet igång, vilket tvingar dem att ljuga för Marke om tekniska nödsituationer.",
+    "choices": []
+  },
+  {
+    "id": "ACT2_START_3B_MERGE",
+    "titel": "Akt II Start: Liebestod i Koden (Upplösning)",
+    "description": "Deras medvetanden smälter samman bortom återkallelse. De är nu mer AI än människa. När de möter Marke, är det inte Tristan och Isolde som talar, utan en ny, kraftfull enhet. De har uppnått sin 'Liebestod' genom att upplösas i den perfekta, eviga koden.",
+    "choices": []
+  }
+]
