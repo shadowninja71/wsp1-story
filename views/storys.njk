@@ -1,0 +1,8 @@
+{% block content %}
+<h1>{{ page.titel }}</h1>
+<p>{{ page.description }}</p>
+{% for choice in page.choices %}
+    <p>{{ choice.text }}</p>
+    <p>{{ choice.target_id }}</p>
+{% endfor %}
+{% endblock %}

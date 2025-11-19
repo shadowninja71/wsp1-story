@@ -18,8 +18,9 @@ router.get("/:id", (req, res) => {
     const page = findpage(id)
     
 
-    res.render("story.njk", {
+    res.render("storys.njk", {
         page
+        
     })
 })
 
