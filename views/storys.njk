@@ -3,6 +3,6 @@
 <p>{{ page.description }}</p>
 {% for choice in page.choices %}
     <p>{{ choice.text }}</p>
-    <p>{{ choice.target_id }}</p>
+    <p><a href="/story/{{ choice.target_id }}">{{ choice.target_id }}</a></p>
 {% endfor %}
 {% endblock %}
